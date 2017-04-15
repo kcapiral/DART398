@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	font-size: 50px;
+	color: #001FFF;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	background-color: #E9E9E9;
+}
+
+h2, h3 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: #001FFF;
+	font-style: italic;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 20px;
+}
+
+a:link {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	color:#D3D3D3;
+	text-decoration: none;
+}
+
+a:hover {
+	
+}

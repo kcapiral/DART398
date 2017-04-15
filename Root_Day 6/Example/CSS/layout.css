@@ -1,0 +1,110 @@
+/* ===== MEDIA QUERY PHONE LAYOUT ===== */
+
+body {
+	background: #333;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:100%;
+	background: #eee;
+	padding: 20px;
+}
+
+header, nav {
+	margin-bottom: 20px;
+	background: #777;
+	padding: 20px;
+}
+
+section {
+	float: none;
+	width:100%;
+	margin-bottom: 20px;
+	border: solid 1px red;
+}
+
+article {
+	margin-bottom: 20px;
+	background: #999;
+	padding: 20px;
+	float: none;
+	width:100%;
+}
+
+aside {
+	margin-bottom: 20px;
+	background: #999;
+	padding: 20px;
+	float: none;
+	width:100%;
+	display:none;
+}
+
+footer {
+	background: #777;
+	clear:none;
+	padding: 20px;
+}
+
+/* ===== TABLET LAYOUT ===== */
+/* 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+	#wrapper {
+		width:96%;
+	}
+
+	section {
+		float: left;
+		width:50%;
+	}
+
+	article {
+		float: left;
+		width:73%;
+		margin-right: 2%;
+	}
+
+	aside {
+		float:left;
+		width:25%;
+		background: #bbb;
+		display:block;
+	}
+	footer {
+		clear:both;
+	}
+
+}
+
+/* ===== DESKTOP LAYOUT ===== */
+/* Desktop Layout: 769px to a max of 1200px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+	#wrapper {
+		width:90%;
+		max-width:1000px;
+	}
+
+	section {
+		float: left;
+		width:25%;
+	}
+
+	article {
+		width:63%;
+		margin-right: 2%;
+	}
+
+	aside {
+		width:35%;
+		background: #ccc;
+	}
+	footer {
+		clear:both;
+	}
+
+}

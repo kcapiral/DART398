@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+div {
+	background-color: #0800FF;
+	width: 80%;
+	margin: 0 auto; /* auto left/right will horizontally center a block */
+	padding: 20px;
+	max-width: 1000px; /*Restricts the width % with a max width*/
+}
+
+header h1 {
+	font-size: 72px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #FFAFF4;
+}
+
+header h2 {
+	font-size: 24px;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	color: #B7B7B7;
+	font-style: italic;
+}
+
+header, nav, article, p {
+/*	border: 1px solid red;*/
+	margin-bottom: 50px;
+}
+
+article h1 {
+	font-size: 36px;
+	font-family: Baskerville, "Palatino Linotype", "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman, serif;
+	color: #FFAFF4;
+}
+
+article h2 {
+	font-size: 36px;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	color: #FFAFF4;
+}
+
+article p {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 16px;
+	color: #FFAFF4;
+	line-height: 22px;
+}
+
+article img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+footer {
+	background-color: #FFAFF4;
+	padding: 20px;
+}
+
+footer p {
+	color: #FFFFFF;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+a:link {
+	color: #FFAFF4;
+	text-decoration: none;
+	border-bottom: 1px #FFAFF4 dotted;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px #FFFFFF dotted;
+}
+
+a:hover {
+	color: #B7B7B7;
+	text-decoration: none;
+	border-bottom: 1px #B7B7B7 dotted;
+}
+
+a:active {
+	color: #1500FF;
+	border-bottom: 1px #B7B7B7 dotted;
+}
+
+nav {
+	background: #F3611D;
+	padding: 10px 0;
+}
+
+nav a:link {
+	background-color: #F3611D;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-bottom: none;
+	
+}
+
+nav a:visited {
+	background-color: #FFAFF4;	
+}
+
+nav a:hover {
+	background-color: #FFAFF4;
+	color: #FFFFFF;
+	padding: 10px 20px;
+	border-bottom: none;
+	
+}
+
+.pull_quote {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 22px;
+	background-color: #FFFFFF;
+	padding: 20px;
+	width: 200px;
+	line-height: 28px;
+/*	font-style: italic;*/
+	float: right;
+	margin-left: 20px;
+	
+}

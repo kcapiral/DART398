@@ -1,0 +1,241 @@
+/* === MY STYLES === */
+@import 'https://fonts.googleapis.com/css?family=Passion+One|Poiret+One';
+
+/* --- phone first --- */
+
+html, body {
+	height:100%;
+}
+
+#logo {
+	position:absolute;
+	left:20px;
+	top:26px;
+	color:#fff;
+	font-size:12px;
+	z-index:10;
+}
+#logo img {
+	width:50px;
+	height:auto;
+}
+	
+
+section {
+	position:relative;
+	background:#eee;
+	padding:20px;
+}
+
+footer {
+	padding:20px;
+	background:#036;
+	color:#fff;
+	text-align:center;
+}
+
+#s1 {
+	height:70%;
+	background:url(../images/bg2.jpg) fixed center center no-repeat;
+	background-size:cover;
+}
+
+#s1 header {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:90%;
+	/*background:#333;
+	border:solid 1px red;*/	
+	transform:translate(-50%, -50%);
+	text-align:center;
+	color:#fff;
+}
+
+#s1 h2 {
+	font-family: 'Poiret One', cursive;
+	font-size:20px;
+	line-height:10px;
+	text-transform:capitalize;
+	color:#eee;
+	font-weight:normal;
+}
+#s1 h1 {
+	font-family: 'Passion One', cursive;
+	font-size:48px;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+#s2 {
+	background:#DCDFED;
+}
+
+#s2 h1 {
+	font-family: 'Passion One', cursive;
+	font-size:36px;
+	text-transform:uppercase;
+	color:#333;
+	font-weight:normal;
+}
+
+#s3 article {
+	float:none;
+	margin-bottom:20px;
+	background:#9CC;
+	height:300px;
+	position:relative;
+}
+#s3 article p {
+	background:#fff;
+	padding:10px 20px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+}
+	
+.multi {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+		
+	
+/* ===== TABLET LAYOUT ===== */
+/* 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+	#logo img {
+		width:60px;
+		height:auto;
+	}
+	#s1 h2 {
+		font-size:30px;
+		line-height:15px;
+	}
+	#s1 h1 {
+		font-size:72px;
+	}
+	
+	#s2 article {
+		margin:20px 2.5%;
+	}
+	
+	#s3 article {
+		float:left;
+		margin:20px 2.5%;
+		width:28%;
+	}
+	.multi {
+		-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    	-moz-column-count: 3; /* Firefox */
+    	column-count: 3;
+	}
+}
+	
+	
+/* ===== DESKTOP LAYOUT ===== */
+/* Desktop Layout: 769px to a max of 1200px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	#logo img {
+		width:70px;
+		height:auto;
+	}
+	
+	#s1 h2 {
+		font-size:40px;
+		line-height:0px;
+	}
+	#s1 h1 {
+		font-size:96px;
+	}
+	
+	#s2 article {
+		margin:20px 2.5%;
+	}
+	
+}
+	
+	
+/* ===== OVERLAY MENU INFO ===== */
+#trigger {
+	font-size:20px;
+	cursor:pointer;
+	position:fixed;
+	top:20px;
+	right:20px;
+	z-index: 9;
+	color:#fff;
+	font-weight:bold;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.95);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+	/*border:1px solid red;*/
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+	font-family: 'Passion One', cursive;
+    font-size: 42px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay a.current {
+	color:#CFF;
+	font-style:italic;
+}
+
+.closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px !important;
+	line-height:0px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px;}
+  .closebtn {
+    font-size: 40px !important;
+    top: 15px;
+    right: 35px;
+  }
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	

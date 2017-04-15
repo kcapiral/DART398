@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Absolute Position */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	background: #D7D7D7;
+	width: 80%;
+	margin: 20px auto;
+	position: relative;
+	
+}
+
+section {
+	width: 100px;
+	height: 100px;
+	background-color: #DBFFBE;
+	margin: 20px;
+	padding: 20px;
+	font-size: 72px;
+}
+
+#abso {
+	background: #FFC3C4;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+#lone_wolf {
+	position: absolute;
+	background: #FFE8F0;
+	right: 0px;
+	top: 0px;
+	z-index: 10;
+}
+
+nav {
+	position: fixed;
+	bottom: 0;
+	background: #FCFFAE;
+	padding: 20px;
+	width: 100%;
+	z-index: 999;
+}

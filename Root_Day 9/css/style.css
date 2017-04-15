@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document - Responsive design only works on Google Chrome*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: linear-gradient(#0000ff, #00ffff)
+}
+
+/* Phone view - mobile first */
+
+#wrapper {
+	width: 100%;
+	padding: 2%;
+}
+
+header {
+	margin-bottom: 2%;
+}
+
+header, h1 {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 36px;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	float: none;
+	height: 400px;
+	background: linear-gradient(#0000ff, #00ffff);
+	margin-bottom: 2%;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* Tablet view - 481px to 768px. Inherits styles from: Mobile layout. */
+
+@media only screen and (min-width: 481px) {
+
+	wrapper {
+		padding-right: 0;
+	}
+	
+	section {
+		float: left;
+		width: 48%;
+		margin-right: 2%;
+	}
+	
+	footer {
+		clear: both;
+	}
+	
+}
+
+/* Desktop view - 769px and higher. Inherits styles from: Mobile layout and Tablet layout. */
+
+@media only screen and (min-width: 769px) {
+
+	wrapper {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	section {
+		width: 23%;
+	}
+	
+}
+
+/* Transitions for the sections */
+
+section#s1 {
+	background: url(../images/1200px-Peyto_Lake-Banff_NP-Canada.jpg) no-repeat center center;
+	transition: all 0.35s;
+}
+
+section#s1:hover {
+	background: url(../images/1200px-Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg) no-repeat right center;
+}
+
+section#s2 {
+	background: url(../images/1200px-Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg) no-repeat center center;
+	transition: all 0.35s;
+}
+
+section#s2:hover {
+	background: url(../images/1200px-Salar_de_Atacama.jpg) no-repeat right center;
+}
+
+section#s3 {
+	background: url(../images/1200px-Peyto_Lake-Banff_NP-Canada.jpg) no-repeat center center;
+	transition: all 0.35s;
+}
+
+section#s3:hover {
+	background: url(../images/1200px-Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg) no-repeat right center;
+}
+
+section#s4 {
+	background: url(../images/1200px-Piles_of_Salt_Salar_de_Uyuni_Bolivia_Luca_Galuzzi_2006_a.jpg) no-repeat center center;
+	transition: all 0.35s;
+}
+
+section#s4:hover {
+	background: url(../images/1200px-Salar_de_Atacama.jpg) no-repeat right center;
+}
+
+
+
+
+
+section h1 {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 32px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.75);
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	transition: all 0.35s;
+}
+
+section:hover h1 {
+	top: 100px;
+}
+
+section p {
+	background: rgba(0,0,0,0.80);
+	color: #FFFFFF;
+	font-style: italic;
+	padding: 30px 20px;
+	position: absolute;
+	bottom: -150px;
+	width: 100%;
+	transition: all 0.35s ease-out .2s;
+}
+
+section:hover p {
+	bottom: 0;
+}

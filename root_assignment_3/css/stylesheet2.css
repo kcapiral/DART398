@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background-color: #EBEBEB;
+}
+
+/* Phone view - mobile first */
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #6534ff;
+}
+
+h1, h2, h3 {
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 10px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+	
+	#s1 {
+/*
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+	background: pink;
+}
+
+#s1 article {
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+/*	Some css3 doesn't show up on some servers, so you add webkite*/
+	transform: translate(-50%, -50%);
+}
+
+#s1 h1 {
+	position: relative;
+	font-size: 25px;
+}
+
+#s2 {
+/*
+	background: url(../img/exercise4/img_2.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+}
+
+#s2 article {
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	color: #cc99ff;
+}
+
+#s3 {
+/*
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+}
+
+#s3 article {
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	color: #cc99ff;
+}
+	
+	footer {
+		clear: both;
+	}
+
+/* Tablet view - 481px to 768px. Inherits styles from: Mobile layout. */
+
+@media only screen and (min-width: 481px) {
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #6534ff;
+}
+
+h1, h2, h3 {
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 10px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+	
+	#s1 {
+/*
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+	background: pink;
+}
+
+#s1 article {
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+/*	Some css3 doesn't show up on some servers, so you add webkite*/
+	transform: translate(-50%, -50%);
+}
+
+#s1 h1 {
+	font-size: 20px;
+}
+
+#s2 {
+/*
+	background: url(../img/exercise4/img_2.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+}
+
+#s2 article {
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	color: #cc99ff;
+}
+
+#s3 {
+/*
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+}
+
+#s3 article {
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	color: #cc99ff;
+}
+	
+	footer {
+		clear: both;
+	}
+	
+}
+
+/* Desktop view - 769px and higher. Inherits styles from: Mobile layout and Tablet layout. */
+
+@media only screen and (min-width: 769px) {
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #6534ff;
+}
+
+h1, h2, h3 {
+	font-family: 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+	
+	#s1 {
+/*
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+	background: pink;
+}
+
+#s1 article {
+	width: 30%;
+	position: absolute;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+/*	Some css3 doesn't show up on some servers, so you add webkite*/
+	transform: translate(-50%, -50%);
+}
+
+#s1 h1 {
+	font-size: 50px;
+}
+
+#s2 {
+/*
+	background: url(../img/exercise4/img_2.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+	background: #C53E40;
+}
+
+#s2 article {
+	width: 30%;
+	position: absolute;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	left: 66%;
+	color: #cc99ff;
+}
+
+#s3 {
+/*
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+	Covers entire page
+*/
+}
+
+#s3 article {
+	width: 30%;
+	position: absolute;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	left: 66%;
+	color: #cc99ff;
+}
+	
+}

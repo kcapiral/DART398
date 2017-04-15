@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFEAEA;
+	font-family: 'Lora', serif;
+/*	margin: 0 auto;*/
+}
+
+#wrapper {
+    width: 100vw;
+	height: 100vh;
+    margin: 0 auto;
+	perspective: 1px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.subtitle {
+	text-align: left;
+	display: inline-block;
+	font-size: 5vw;
+	color: #FFFFFF;
+
+}
+
+.text {
+	margin: auto;
+	text-align: left;
+	align-content: center;
+	display: block;
+	font-size: 3vw;
+	color: #FFA4A4;
+	z-index: 1;
+
+}
+
+img {
+    width: 100%; 
+	z-index: -1;
+	display: block;
+}
+
+.tint {
+  	position: relative;
+  	float: left;
+  	cursor: pointer;
+}
+
+.tint:before {
+  	content: "";
+  	display: block;
+ 	position: absolute;
+ 	top: 0;
+ 	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background: none;
+  	-moz-transition: background .3s linear;
+  	-webkit-transition: background .3s linear;
+  	-o-transition: background .3s linear;
+  	transition: background .3s linear;
+}
+
+.tint:hover:before {
+	background: rgba(255,255,255, 0.5);
+}
+
+.circle1 {
+    width: 200vw;
+    height: 200vw;
+    background: #FFFFFF;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 50%;
+	position: absolute;
+	display: block;
+	top: 25%;
+	left: 60%;
+	transform: translateZ(-1.5px);
+}
+
+.content {
+	width: 75%;
+	margin: 0 auto;
+	transform: translateZ(0);
+}
+
+/*
+#circle2 {
+    width: 75vw;
+    height: 75vw;
+    background: #FFFFFF;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 50%;
+	position: absolute;
+	display: block;
+	z-index: -1;
+	top: 325%;
+	left: -25%;
+}
+*/
+
+a {
+	font-size: 2vw;
+}
+
+a:visited {
+    text-decoration: none;
+	color: #FFA4A4;
+}
+
+a:link {
+    text-decoration: underline;
+	color: #FFA4A4;
+}

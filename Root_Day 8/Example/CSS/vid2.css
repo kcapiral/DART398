@@ -1,0 +1,93 @@
+/* === Multiple Video Example === */
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+section {
+	width:100%;
+	height: 100%;
+	background: #333;
+	position: relative;
+	z-index: 0;
+}
+
+/* === BG VIDEO === */
+video#bgvid {
+	position: fixed;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1;
+	background: url(../images/vid.png) no-repeat;
+	background-size: cover;
+}
+video#bgvid2 {
+	position: absolute;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -2;
+	background: url(../images/vid2.png) no-repeat;
+	background-size: cover;
+}
+
+header {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:72px;
+	background:#eee;
+	color:#333;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:40%;
+	text-align: center;
+	padding:20px;
+	transform:translate(-50%,-50%);
+}
+
+#s2 article {
+	width:60%;
+	float: left;
+	background: #eee;
+	padding:20px;
+	margin-bottom: 20px;
+}
+
+#s2 article p {
+	margin-bottom: 20px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#s2 aside {
+	width:20%;
+	float: left;
+	background: #eee;
+	padding:20px;
+	margin-left: 2%;
+}
+
+#s2 {
+	padding: 20px;
+	height: auto;
+}
+br {
+	clear: both;
+}
+
+
+
+
+

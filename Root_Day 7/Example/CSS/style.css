@@ -1,0 +1,180 @@
+ @import url(https://fonts.googleapis.com/css?family=Arvo:700);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+/* ===== MY STYLES ===== */
+html, body {
+	width:100%;
+	height:100%; /* dont forget to add this if you want elements that are 100% height*/
+}
+
+nav {
+	text-align: center;
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:99;
+	background:#eee;
+	padding:20px;
+}
+section {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+#s1 {
+	background: url(../images/land2.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+#s2 {
+	background: url(../images/reeds.gif) no-repeat bottom left fixed; 
+  	background-size: cover;
+}
+
+#s3 {
+	background: url(../images/guyanddog.jpg) no-repeat center right; 
+  	background-size: cover;
+}
+
+#s4 {
+	background: url(../images/shroom.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+/* ===== SECTION S1 ===== */
+#s1 header {
+	background:#eee;
+	width:40%;
+	padding:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	/*overflow:auto;
+	height:50%;*/
+}
+
+#s1 h1 {
+	font-family: 'Arvo', serif;
+	font-weight:700;
+	font-size:92px;
+	color:#333;
+	text-align:center;
+}
+
+#s1 h2 {
+	font-family: Georgia, serif;
+	font-size:20px;
+	color:#999;
+	font-style:italic;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#s1 p {
+	font-family: Georgia, serif;
+	font-size:16px;
+	color:#222;
+	line-height:22px;
+}
+
+/* ===== SECTION S2 ===== */
+#s2 article {
+	background:#eee;
+	width:40%;
+	float:right;
+	padding:40px 20px 20px;
+	height:100%;
+}
+
+#s2 h1 {
+	font-family: 'Arvo', serif;
+	font-weight:700;
+	font-size:52px;
+	color:#333;
+	text-align:center;
+	margin-bottom:20px;
+}
+#s2 p {
+	font-family: Georgia, serif;
+	font-size:16px;
+	color:#222;
+	line-height:22px;
+	margin-bottom:20px;
+}
+
+
+/* ===== SECTION S3 ===== */
+#s3 article {
+	background:#eee;
+	width:40%;
+	float:left;
+	padding:20px;
+	margin:2%;
+}
+
+#s3 figure {
+	background:#eee;
+	width:20%;
+	float:left;
+	padding:20px;
+	margin-top:20px;
+}
+#s3 figure img {
+	width:100%;
+	height:auto;
+}
+#s3 figcaption {
+	text-align:center;
+	font-style:italic;
+	color:#888;
+	margin-top:20px;
+}
+
+#s3 h1 {
+	font-family: 'Arvo', serif;
+	font-weight:700;
+	font-size:52px;
+	color:#333;
+	text-align:center;
+	margin-bottom:20px;
+}
+#s3 p {
+	font-family: Georgia, serif;
+	font-size:16px;
+	color:#222;
+	line-height:22px;
+	margin-bottom:20px;
+}
+
+/* ===== SECTION S4 ===== */
+#s4 article {
+	background:#eee;
+	width:30%;
+	padding:20px;
+	position:absolute;
+	bottom:20px;
+	right:20px;
+}
+#s4 h1 {
+	font-family: 'Arvo', serif;
+	font-weight:700;
+	font-size:52px;
+	color:#333;
+	text-align:center;
+	margin-bottom:20px;
+}
+#s4 p {
+	font-family: Georgia, serif;
+	font-size:16px;
+	color:#222;
+	line-height:22px;
+	margin-bottom:20px;
+}

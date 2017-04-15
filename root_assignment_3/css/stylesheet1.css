@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-size: 10px;
+}
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background: #EBEBEB;
+}
+
+#tile-wrapper {
+	position: relative;
+	max-width: 1000px;
+/*	background-color: pink;*/
+	margin: 0 auto;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;
+}
+
+.row {
+	position: relative;
+	width: 100em;
+	overflow: hidden;
+}
+
+.tile {
+	position: relative;
+	display: inline-block;
+	width: 27.5em;
+	height: 15em;
+	margin: 2.5em;
+	background-color: pink;
+}

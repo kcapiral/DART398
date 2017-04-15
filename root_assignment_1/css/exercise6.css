@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+video#bgvid {
+	position: fixed;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(../images/vid.png) no-repeat;
+	background-size: cover;
+}
+
+.textContainer {
+	text-align: left;
+/*	position: relative;*/
+	margin-left: 50px;
+	float: right;
+	display: block;
+	padding-right: 25px;
+	height: 100%;
+	width: 45%;
+	bottom: 50px;
+	font-size: 25px;
+	overflow-y: scroll;
+	font-family: 'Nunito', sans-serif;
+	color: #6534ff;
+}
+
+.miniContainer {
+	background: #bbc4ef;
+	padding: 20px;
+	width: 80%;
+	float:right;
+}
+
+h1 {
+	color: #6534ff;
+}
+
+.subtitle {
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 25px;
+	font-size: 15px;
+}
+
+footersection1 {
+	display: block;
+	float: left;
+	padding: 25px;
+}
+
+footersection2 {
+	display: block;
+	float: right;
+	padding: 25px 25px 25px 25px;
+}
+
+footer {
+	position: fixed;
+	text-align: left;
+	width: 100%;
+	bottom: 0px;
+/*	background-color: #bbc4ef;*/
+	color: #6534ff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+}
+
+a.a1 {
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+a.a1:link {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+a.a1:visited {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+a.a1:active {
+	text-decoration: underline;
+	color: #6534ff;
+}
+
+a.a1:hover {
+	text-decoration: underline;
+	color: #6534ff;
+}

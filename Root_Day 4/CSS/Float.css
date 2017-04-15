@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Float Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	background: #D7D7D7;
+	width: 80%;
+	margin: 20px auto;
+	position: relative;
+	
+}
+
+section {
+	width: 20%;
+	height: 200px;
+	background: #8CEAFF;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}

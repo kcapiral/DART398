@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.imgContainer {
+	position: absolute;
+/*	right: 65%;*/
+	margin-left: 25px;
+	height: 100%;
+	width: 50%;
+	max-width: 700px;
+	min-width: 400px;
+	text-align: center;
+/*	background: #fccdd3;*/
+}
+
+img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	right: 0;
+	top: 50%;
+	margin-top: -200px;
+}
+
+.textContainer {
+	text-align: left;
+	position: relative;
+	margin-left: 50px;;
+	float: right;
+	display: block;
+	padding-right: 25px;
+	height: 100%;
+	width: 45%;
+	bottom: 50px;
+/*	padding-right: 20%;*/
+/*	background-color: pink;*/
+	font-size: 25px;
+	overflow: auto;
+	font-family: 'Nunito', sans-serif;
+	color: #6534ff;
+}
+
+.miniContainer {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	position: absolute;
+	width: 80%;
+	left: 0px;
+}
+
+h1 {
+	color: #6534ff;
+}
+
+.subtitle {
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+a.a2 {
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+a.a2:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.a2:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.a2:active {
+	text-decoration: none;
+	color: #FFFFFF
+}
+
+a.a2:hover {
+	text-decoration: none;
+	color: #fccdd3;
+}

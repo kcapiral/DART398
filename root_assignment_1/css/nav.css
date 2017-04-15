@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#nav {
+/*	background-color: pink;*/
+/*	margin-left: 5%;*/
+	font-family: 'Nunito', sans-serif;
+	z-index: 9999;
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 43%;
+}
+
+.parentLink:link {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+.parentLink:visited {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+.parentLink:active {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+.parentList:hover .sublist {
+	display: block;
+	visibility: visible;
+}
+
+.parentLink:hover {
+	text-decoration: underline;
+	color: #6534ff;
+}
+
+.sublist {
+	visibility: hidden;
+	display: none;
+}
+
+.childLink:link {
+	color: #6534ff;
+	text-decoration: none;
+}
+
+.childLink:visited {
+	color: #6534ff;
+	text-decoration: none;
+}
+
+.childLink:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.childLink:hover {
+	background-color: #6534ff;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+

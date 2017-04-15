@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Relative Position */
+
+section {
+	width: 200px;
+	height: 200px;
+	background-color: #DBFFBE;
+	margin: 20px;
+	padding: 20px;
+	font-size: 72px;
+}
+
+#rel {
+	background: #C9D5FF;
+	position: relative;
+	left: 100px;
+	top: 100px;
+}

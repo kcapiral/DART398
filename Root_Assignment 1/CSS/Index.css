@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #FFEAEA;
+	font-family: 'Lora', serif;
+	transition: background-color 2.0s ease;
+}
+
+#wrapper {
+	height: 100%;
+}
+
+#main {
+	text-align: center;
+	font-size: 5vw;
+	color: #FFFFFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 1vw;
+	
+}
+
+#main :hover {
+	color: #FFA4A4;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+    text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #FFA4A4;
+}

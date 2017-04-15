@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+/*	Without box-sizing, contains everything (padding, border) within the element and doesn't go past the screen*/
+}
+
+html, body {
+	height: 100%;
+/*
+	overflow-x: hidden;
+	overflow-y: hidden;
+*/
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	background-color: #bbc4ef;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	color: #6534ff;
+}
+
+h1, h2, h3 {
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#s1 {
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+/*	Covers entire page*/
+}
+
+#s1 article {
+	width: 30%;
+	position: absolute;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+/*	Some css3 doesn't show up on some servers, so you add webkite*/
+	transform: translate(-50%, -50%);
+}
+
+#s1 h1 {
+	font-size: 50px;
+}
+
+#s2 {
+	background: url(../img/exercise4/img_2.jpg) fixed no-repeat center center;
+	background-size: cover; 
+/*	Covers entire page*/
+}
+
+#s2 article {
+	width: 50%;
+	position: absolute;
+	padding: 20px;
+	text-align: left;
+	top: 25px;
+	left: 50%;
+}
+
+#s3 {
+	background: url(../img/exercise4/img_1.jpg) fixed no-repeat center center;
+	background-size: cover; 
+/*	Covers entire page*/
+}
+
+#s3 article {
+	width: 48%;
+/*	should be 75% width but because you add 2% of padding, your width becomes 102%, so you have to subract from 75%*/
+	float: left;
+	margin-right: 2%;
+	padding: 20px;
+}
+
+#s3 aside {
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+
+#s3 aside h2 {
+	font-style: italic;
+	font-size: 25px;
+}
+
+header {
+	position: absolute;
+	width: 100%;
+	padding: 25px;
+	font-size: 15px;
+}
+
+footersection1 {
+	display: block;
+	float: left;
+	padding: 25px;
+}
+
+footersection2 {
+	display: block;
+	float: right;
+	padding: 25px 25px 25px 25px;
+}
+
+footer {
+	position: fixed;
+	text-align: left;
+	width: 100%;
+	bottom: 0px;
+/*	background-color: #bbc4ef;*/
+	color: #6534ff;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+}
+
+a.a1 {
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+a.a1:link {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+a.a1:visited {
+	text-decoration: none;
+	color: #6534ff;
+}
+
+a.a1:active {
+	text-decoration: underline;
+	color: #6534ff;
+}
+
+a.a1:hover {
+	text-decoration: underline;
+	color: #6534ff;
+}
