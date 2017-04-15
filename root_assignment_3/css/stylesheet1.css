@@ -34,7 +34,7 @@ html, body {
 .tile {
 	position: relative;
 	width: 200px;
-	height: 150px;
+	height: 120px;
 	margin-right: 50px;
 	margin-bottom: 50px;
 	display: inline-block;
@@ -56,6 +56,7 @@ html, body {
 	display: none;
 	width: 0;
 	height: 0;
+	z-index: 50;
 }
 
 #arrow-up {
@@ -73,7 +74,7 @@ html, body {
 	border-top: 52px solid pink;
 	left: 50%;
 	margin-left: -13px;
-	top: 741px;
+	top: 631px;
 }
 
 #arrow-left {
@@ -82,7 +83,7 @@ html, body {
 	border-bottom: 26px solid transparent;	
 	left: 50%;
     margin-left: -422px;
-    top: 420px;
+    top: 366px;
 }
 
 #arrow-right {
@@ -91,5 +92,5 @@ html, body {
 	border-bottom: 26px solid transparent;
 	left: 50%;
     margin-left: 370px;
-    top: 420px;
+    top: 366px;
 }

@@ -6,18 +6,18 @@ var yPos = 0;
 var DEFAULT_TRANSFORM_COORDINATES = {
 	"0": {
 		"0": "0px 0px",
-		"1": "0px 280px",
-		"2": "0px 559px"
+		"1": "0px 238px",
+		"2": "0px 475px"
 	},
 	"1": {
 		"0": "353px 0px",
-		"1": "353px 280px",
-		"2": "353px 559px"
+		"1": "353px 238px",
+		"2": "353px 475px"
 	},
 	"2": {
 		"0": "705px 0px",
-		"1": "705px 280px",
-		"2": "705px 559px"
+		"1": "705px 238px",
+		"2": "705px 475px"
 	}
 };
 
@@ -25,7 +25,6 @@ function hamburgerToggle() {
 	$('.hamburger').click(function(){
 		$(this).toggleClass('open');
 		$('.menu-overlay').toggleClass('open');
-		$('.menu-overlay').css('z-index', 99);
 	});
 }
 
