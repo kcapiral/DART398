@@ -16,13 +16,13 @@ html, body {
 }
 
 #tile-wrapper {
-	position: relative;
-	max-width: 1000px;
-/*	background-color: pink;*/
-	margin: 0 auto;
-	box-sizing: border-box;
-	text-align: center;
-	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 750px;
+	height: 600px;
+	transform-origin: 700px 0;
+	transition: all 1s;
 }
 
 .row {
@@ -33,9 +33,63 @@ html, body {
 
 .tile {
 	position: relative;
+	width: 200px;
+	height: 150px;
+	margin-right: 50px;
+	margin-bottom: 50px;
 	display: inline-block;
-	width: 27.5em;
-	height: 15em;
-	margin: 2.5em;
-	background-color: pink;
+}
+
+#view-window {
+	position: absolute;
+    width: 700px;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: 100px;
+}
+
+.arrow {
+	position: absolute;
+	display: none;
+	width: 0;
+	height: 0;
+}
+
+#arrow-up {
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-bottom: 52px solid pink;
+	left: 50%;
+	margin-left: -13px;
+	top: 99px;
+}
+
+#arrow-down {
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-top: 52px solid pink;
+	left: 50%;
+	margin-left: -13px;
+	top: 741px;
+}
+
+#arrow-left {
+	border-top: 26px solid transparent;
+	border-right: 52px solid pink;
+	border-bottom: 26px solid transparent;	
+	left: 50%;
+    margin-left: -422px;
+    top: 420px;
+}
+
+#arrow-right {
+	border-top: 26px solid transparent;
+	border-left: 52px solid pink;
+	border-bottom: 26px solid transparent;
+	left: 50%;
+    margin-left: 370px;
+    top: 420px;
 }
